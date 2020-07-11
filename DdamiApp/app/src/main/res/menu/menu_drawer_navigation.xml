@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/page_myroom"
+        android:enabled="true"
+        android:icon="@drawable/ic_brightness_1_white_24dp"
+        android:title="나의 작업실" />
+</menu>

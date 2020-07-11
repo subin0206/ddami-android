@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/page_main">
+
+
+    <fragment
+        android:id="@+id/page_main"
+        android:name="com.doubleslash.ddamiapp.fragment.MainFragment"
+        android:label="fragment_main"
+        tools:layout="@layout/fragment_main" />
+
+    <fragment
+        android:id="@+id/page_activities"
+        android:name="com.doubleslash.ddamiapp.fragment.ActivitisFragment"
+        android:label="fragment_activitis"
+        tools:layout="@layout/fragment_activitis" />
+    <fragment
+        android:id="@+id/page_chat"
+        android:name="com.doubleslash.ddamiapp.fragment.ChattingFragment"
+        android:label="fragment_chatting"
+        tools:layout="@layout/fragment_chatting" />
+    <fragment
+        android:id="@+id/page_shop"
+        android:name="com.doubleslash.ddamiapp.fragment.ShopFragment"
+        android:label="fragment_shop"
+        tools:layout="@layout/fragment_shop" />
+
+    <fragment
+        android:id="@+id/page_myroom"
+        android:name="com.doubleslash.ddamiapp.fragment.MyRoomFragment"
+        android:label="fragment_my_room"
+        tools:layout="@layout/fragment_my_room" />
+</navigation>
